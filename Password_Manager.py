@@ -2,7 +2,7 @@ from cryptography.fernet import Fernet
 
 '''
 # first you have to run this code for creating "key" file
-# after that you can comment in it.
+# after that you can comment in.
 
 def write_key():
     key = Fernet.generate_key()
